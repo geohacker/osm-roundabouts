@@ -1,0 +1,16 @@
+{
+  "name": "count-roundabouts",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sajjad Anwar",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "tile-reduce": "^3.0.2",
+    "turf": "^2.0.2"
+  }
+}
