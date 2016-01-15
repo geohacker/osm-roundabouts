@@ -18,7 +18,7 @@ tileReduce({
   }]
 })
 .on('reduce', function(feature) {
-  if (largest.length > feature.length) {
+  if (feature.length > largest.length) {
     largest.length = feature.length;
     largest.feature = feature.feature;
   }
