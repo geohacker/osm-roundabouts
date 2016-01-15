@@ -13,7 +13,7 @@ module.exports = function(tileLayers, tile, writeData, done) {
       try {
        length = turf.lineDistance(val, 'kilometers');
        val.properties.length = length;
-       if (largest > largest.length) {
+       if (length > largest.length) {
         largest.length = length;
         largest.feature = val;
        }
